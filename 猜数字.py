@@ -1,6 +1,7 @@
 import random
 import time
 
+
 def check_number(number):
     try:
         int(number)
