@@ -24,11 +24,11 @@ while True:
         print('数字非法')
         continue
     UserNumber = int(UserNumber)
-    if UserNumber > MaxNumber - 1:
+    if UserNumber > MaxNumber:
         print('所输数字大于最大值')
         continue
-    elif UserNumber < MinNumber + 1:
-        print('所输数字小于最大值')
+    elif UserNumber < MinNumber:
+        print('所输数字小于最小值')
         continue
     if UserNumber == RandomNumber:
         print('成功猜到了')
